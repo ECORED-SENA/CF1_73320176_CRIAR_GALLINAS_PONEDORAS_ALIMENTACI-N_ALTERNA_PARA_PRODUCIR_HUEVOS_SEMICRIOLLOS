@@ -28,7 +28,7 @@
     //- Título con imagen
     p(data-aos="fade-left") La anatomía externa de la gallina ponedora permite identificar estructuras visibles clave para evaluar su estado sanitario, bienestar y desempeño productivo en sistemas avícolas. Las partes principales son:
     //- Pestanas horizontales
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-right")
         TabsC.color-acento-contenido.mt-1
           .py-3.py-md-4(titulo="Cabeza")
             .row
@@ -80,8 +80,46 @@
                 p Abertura común para excreción y reproducción en aves.
     //- Cierres Pestanas horizontales
     p(data-aos="fade-left") La importancia productiva de las estructuras externas radica en su capacidad para reflejar el estado sanitario, nutricional y funcional de las gallinas ponedoras en producción, tales como:
-
-
+    //- Inicio Tarjetas
+    .row.justify-content-center(data-aos="fade-right")
+      .col-sm-12.col-md-6.col-lg-3.mb-4.d-flex.flex-column
+        .tarjeta.p-0.rounded-4.h-100.bg-white.border.overflow-hidden
+          figure.mb-0
+            img(src='@/assets/curso/tema1/tarjeta01_1.png').w-100
+          .p-4
+            h4.card-title.text-center.mb-4 Cresta y barbilla
+            p.mb-0 Indican el estado sanitario y circulación sanguínea.
+      .col-sm-12.col-md-6.col-lg-3.mb-4.d-flex.flex-column
+        .tarjeta.p-0.rounded-4.h-100.bg-white.border.overflow-hidden
+          figure.mb-0
+            img(src='@/assets/curso/tema1/tarjeta01_2.png').w-100
+          .p-4
+            h4.card-title.text-center.mb-4 Plumaje
+            p.mb-0 Refleja bienestar y nutrición.
+      .col-sm-12.col-md-6.col-lg-3.mb-4.d-flex.flex-column
+        .tarjeta.p-0.rounded-4.h-100.bg-white.border.overflow-hidden
+          figure.mb-0
+            img(src='@/assets/curso/tema1/tarjeta01_3.png').w-100
+          .p-4
+            h4.card-title.text-center.mb-4 Cloaca
+            p.mb-0 Fundamental para postura y evaluación sanitaria.
+      .col-sm-12.col-md-6.col-lg-3.mb-4.d-flex.flex-column
+        .tarjeta.p-0.rounded-4.h-100.bg-white.border.overflow-hidden
+          figure.mb-0
+            img(src='@/assets/curso/tema1/tarjeta01_4.png').w-100
+          .p-4
+            h4.card-title.text-center.mb-4 Patas
+            p.mb-0 Permiten evaluar problemas óseos o deficiencias minerales.
+    //- Fin Tarjetas
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Sistema digestivo
+    //- Título con imagen
+    p(data-aos="fade-left") El sistema digestivo aviar permite transformar el alimento en nutrientes esenciales, mediante órganos que cumplen funciones específicas en captura, digestión, absorción y excreción. Los órganos principales son:
 
     //- Fin Tema1.1
 
