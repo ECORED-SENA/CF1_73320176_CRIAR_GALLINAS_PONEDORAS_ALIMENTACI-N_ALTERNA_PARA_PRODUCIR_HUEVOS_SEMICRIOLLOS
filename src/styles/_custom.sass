@@ -2,13 +2,19 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 30%
+    right: 70%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 60%
+    right: 75%
+  &-3
+    animation: float1 3.8s ease-in-out infinite alternate
+    position: absolute
+    top: 55%
+    right: 20%
+
 
 @keyframes float1
   0%
@@ -30,3 +36,104 @@
 
 figcaption
   font-weight: normal
+
+/* Colores de fondo*/
+.bg-color
+  &-1
+    background-color: #E7AF74 !important
+  &-2
+    background-color: #AEBA58 !important
+  &-3
+    background-color: #FFC94A !important    
+  &-4
+    background-color: #FF0011 !important
+  &-5
+    background-color: #DFE3BC !important
+  &-6
+    background-color: #FAEEE2 !important
+  &-7
+    background-color: #AEBA58 !important
+  &-8
+    background-color: #FFE9B5 !important
+  &-9
+    background-color: #565C2B !important
+  &-10
+    background-color: #EAF7F7 !important
+  &-11
+    background-color: #FCE9D4 !important
+  &-12
+    background-color: #CBF4EB !important
+  &-13
+    background-color: #D5EFEF !important
+  &-14
+    background-color: #FFC94A !important
+  &-15
+    background-image: url(../assets/curso/fondos/fondo1.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: cover
+  &-16
+    background-image: url(../assets/curso/fondos/fondo2.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+  
+/*Fin de Colores de fondo*/
+
+/* Ajuste para botones de Slider en Móviles */
+@media (max-width: $bp-max-sm)
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 35px !important 
+    height: 35px !important
+    background-size: 10px !important 
+    opacity: 1 !important
+  
+  .slyder-a__bullets__item
+    width: 10px !important 
+    height: 10px !important
+    margin: 0 4px !important
+
+  .slyder-a__bullets
+    bottom: 10px !important 
+
+.boton:active *, .boton--sm:active *, .boton:focus *, .boton--sm:focus *, .boton:hover *, .boton--sm:hover *, .boton *, .boton--sm *, .barra-avance__boton--regresar
+  color: #fff !important
+
+/* Código para los subtítulos que tienen imagenes */
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+
+.titulo-con-imagen__fondo
+  background-color: $color-acento-contenido
+  border-radius: 10px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+
+.titulo-con-imagen__imagen
+  position: absolute
+  left: -20px
+  width: 50px
+
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 20px
+/* Fin Código para los subtítulos que tienen imagenes */
+
+/*Pestanas */
+.tabs-c__tab--active
+  font-weight: bold
+
+.tabs-c__content-item
+  background-color: #DDf1f7
+  padding: 2rem
+
+.tabs-c
+  border-bottom: none !important
+
+.tabs-a__tab
+  background-color: #FDF0AC
+/*Pestanas*/
+
+

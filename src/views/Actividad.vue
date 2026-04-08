@@ -17,10 +17,11 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema:
+        'Manejo integral operativo y sanitario en explotaciones avícolas de postura.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Evaluar la comprensión de los aprendices sobre los fundamentos biológicos, sanitarios y productivos en la crianza de gallinas ponedoras, mediante la resolución de preguntas de selección múltiple y verdadero o falso, que permitan identificar el nivel de conocimiento adquirido sobre anatomía aviar, bienestar animal, manejo sanitario, bioseguridad y sistemas de producción avícola.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -28,28 +29,31 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el objetivo principal de la sanidad avícola en gallinas ponedoras?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Aumentar el tamaño del huevo para mejorar su apariencia.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Prevenir, controlar y erradicar enfermedades en las aves.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Reducir el consumo de alimento y así no padecer de sobrepeso.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Mejorar el color del plumaje para que tenga apariencia sana.',
               esCorrecta: false,
             },
           ],
@@ -59,28 +63,28 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            '¿Qué órgano del sistema digestivo aviar se encarga de triturar el alimento?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Molleja.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Esófago.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Buche.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Intestino grueso.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +93,28 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto: '¿Cuál es la función del ovario en la gallina ponedora?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Transportar el alimento.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Absorber nutrientes paulitamente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Producir los óvulos o yemas.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Triturar el alimento y procesarlo.',
               esCorrecta: false,
             },
           ],
@@ -120,28 +124,28 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Cuánto tiempo aproximadamente tarda la formación completa de un huevo en la gallina?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '10–12 horas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '15–18 horas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: '24–26 horas.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '30–36 horas.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +154,29 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto:
+            '¿Cuál de los siguientes comportamientos es natural en las gallinas y contribuye al bienestar animal?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Permanecer inmóviles todo el día.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Dormir en el suelo húmedo y tranquilamente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Escarbar el suelo en busca de alimento.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Evitar el contacto con otras aves y evitar riesgos.',
               esCorrecta: false,
             },
           ],
@@ -181,28 +186,28 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Qué porcentaje aproximado de proteína se recomienda en la alimentación de gallinas ponedoras en sistemas semicriollos?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: '10–12 %.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: '16–18 %.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: '12–14 %.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '22–24 %.',
               esCorrecta: false,
             },
           ],
@@ -212,29 +217,29 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            '¿Cuál es una conducta natural utilizada por las gallinas para controlar ectoparásitos?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Baños de alimento.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Baños de agua.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Baños de sombra.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Baños de polvo.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -243,28 +248,28 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            '¿Cómo se llama la estructura genética de la producción avícola que incluye abuelas, reproductoras y líneas comerciales?	Rta(s) correcta(s) (x)',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Cadena alimenticia.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Sistema sanitario.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Pirámide genética.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Programa de bioseguridad.',
               esCorrecta: false,
             },
           ],
@@ -274,19 +279,31 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+            '¿Cuál es la función principal de las aves llamadas “reproductoras”?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Producir carne para consumo humano de la mejor calidad.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Producir huevos fértiles que originan pollitas comerciales.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Producir alimento para otras aves para promover el desarrollo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Mejorar el plumaje de las aves.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -295,18 +312,28 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+            '¿Qué sistema productivo permite mayor expresión de comportamientos naturales en las gallinas?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Jaula tecnificada y segura.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Sistema intensivo cerrado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Sistema de traspatio o semicriollo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Sistema industrial automatizado.',
               esCorrecta: false,
             },
           ],
@@ -316,19 +343,29 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            '¿Cuál de las siguientes enfermedades aviares es altamente contagiosa y causada por un virus?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Newcastle.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Salmonelosis.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Coccidiosis.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Colibacilosis',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -337,18 +374,28 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Qué institución en Colombia regula y supervisa la sanidad avícola?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Ministerio de Educación.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Policía Nacional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'ICA (Instituto Colombiano Agropecuario).',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Ministerio de Transporte.',
               esCorrecta: false,
             },
           ],
@@ -358,18 +405,31 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+            '¿Cuál es el objetivo principal de la bioseguridad en una granja avícola?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Aumentar el peso de las aves proporicionalmente hasta que logren su peso.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Reducir el consumo de alimento por salud y bienestar animal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Prevenir la entrada y propagación de enfermedades.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Mejorar el color del huevo, tamaño y nutrientes en su producción.',
               esCorrecta: false,
             },
           ],
@@ -379,19 +439,29 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Cuál es la vía de administración más común para vacunas en aves recién nacidas contra Newcastle?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Intramuscular.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Ocular o spray.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Intravenosa.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Oral directa.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -400,18 +470,192 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Cuál es una característica de las gallinas criollas en comparación con las comerciales?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Mayor rusticidad y adaptación al ambiente.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Menor resistencia a enfermedades.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Mayor producción de huevos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Menor capacidad de adaptación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Por qué las gallinas ponedoras utilizan principalmente un solo ovario funcional?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Porque el otro ovario está dañado y no puede forzarlo ni afectarlo más.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Para reducir el peso corporal y facilitar el vuelo para realizar jerarquía.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Para optimizar la producción de huevos y eficiencia energética.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Porque nacen con un solo ovario y genéticamente no están aptas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Cuál de las siguientes acciones contribuye al bienestar animal en aves?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                '¿Cuál de las siguientes acciones contribuye al bienestar animal en aves?',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Solo administrar medicamentos cuando enferman  o se requieran desparasitar.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Mantenerlas en espacios reducidos para controlarlas mejor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Evitar el contacto con otras aves para que entre las de su misma raza se relacionen mejor.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Cuál es un objetivo principal de la bioseguridad en granjas avícolas?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Aumentar la velocidad de crecimiento de las aves.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Reducir costos de alimentación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Mejorar el color de los huevos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Evitar la entrada y propagación de enfermedades.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué característica distingue a las gallinas comerciales de las criollas?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Son más resistentes a todas las enfermedades.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Producen mayor cantidad de huevos al año.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'No requieren alimentación balanceada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Viven menos tiempo, la mortalidad es alta.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: '¿Cómo afecta el estrés a las gallinas ponedoras?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Mejora la calidad del huevo, mejora su tamaño y consistencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'No tiene ningún efecto, es indiferente y los factores externos no influyen.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Disminuye la producción y afecta la calidad del huevo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Aumenta la producción de huevos de manera acelerada.',
               esCorrecta: false,
             },
           ],

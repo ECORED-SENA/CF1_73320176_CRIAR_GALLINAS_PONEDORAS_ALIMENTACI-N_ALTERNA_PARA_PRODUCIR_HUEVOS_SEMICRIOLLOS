@@ -1,7 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name:
+      'Manejo integral operativo y sanitario en explotaciones avícolas de postura.',
+    Description:
+      'El curso tiene como propósito brindar conocimientos técnicos, biológicos y prácticos para el manejo integral de aves de postura en sistemas productivos alternativos. La formación aborda aspectos fundamentales como anatomía aviar, etología, bienestar animal, etapas de desarrollo, razas y líneas de gallinas ponedoras, así como criterios para su selección según el sistema de producción. <br> <br> Además, el programa fortalece competencias en manejo sanitario y preventivo, incluyendo enfermedades aviares, uso responsable de medicamentos, bioseguridad, asepsia y normas de seguridad y salud en el trabajo. En el componente práctico, el aprendiz desarrollará habilidades relacionadas con el manejo del alojamiento, control del peso corporal, viabilidad del lote y uso adecuado de herramientas zootécnicas. De esta manera, el curso promueve la producción sostenible de huevos semicriollos, el bienestar animal y la generación de oportunidades productivas en el contexto rural. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -12,6 +14,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,13 +37,38 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Fundamentos biológicos y productivos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Anatomía aviar básica externa e interna',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Etología y bienestar animal',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Modelos de bienestar animal en avicultura',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Etapas de desarrollo de las aves',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Razas y líneas de aves ponedoras',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Parámetros para la selección de gallinas criollas',
+            hash: 't_1_6',
           },
         ],
       },
@@ -45,14 +76,25 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Fundamentos sanitarios y preventivos',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Sanidad avícola en aves de postura',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Medicamentos en avicultura',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Bioseguridad en granjas avícolas de postura',
+            hash: 't_2_3',
+          },
+        ],
       },
     ],
     subMenu: [
