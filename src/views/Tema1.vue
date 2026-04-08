@@ -120,6 +120,102 @@
           h3.titulo-con-imagen__texto Sistema digestivo
     //- Título con imagen
     p(data-aos="fade-left") El sistema digestivo aviar permite transformar el alimento en nutrientes esenciales, mediante órganos que cumplen funciones específicas en captura, digestión, absorción y excreción. Los órganos principales son:
+    //- Inicio Infografia
+    .row.justify-content-center
+      .col-lg-10
+        PasosA.color-acento-contenido(tipo="n")
+          .row
+            .col-lg
+              h3 Pico
+              p Captura del alimento.
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/imagen-linea1.png').img125
+          .row
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/imagen-linea2.png').img125
+            .col-lg.text-start
+              h3 Esófago
+              p Transporta el alimento.
+          .row
+            .col-lg
+              h3 Buche
+              p Almacenamiento temporal y humedecimiento.
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/imagen-linea3.png').img125
+          .row
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/imagen-linea4.png').img125
+            .col-lg.text-start
+              h3 Proventrículo
+              p Estómago glandular (enzimas digestivas).
+          .row
+            .col-lg
+              h3 Molleja
+              p Estómago muscular que tritura el alimento.
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/imagen-linea5.png').img125
+          .row
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/imagen-linea6.png').img125
+            .col-lg.text-start
+              h3 Intestino delgado
+              p Absorción de nutrientes.
+          .row
+            .col-lg
+              h3 Ciegos
+              p Fermentación bacteriana.
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/imagen-linea7.png').img125
+          .row
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/imagen-linea8.png').img125
+            .col-lg.text-start
+              h3 Intestino grueso
+              p Absorción de agua.
+          .row
+            .col-lg.text-start
+              h3 Cloaca
+              p Salida común digestiva y reproductiva.
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/imagen-linea9.png').img125            
+    //- Fin Infografia
+    p(data-aos="fade-left") El sistema digestivo es muy importante en la producción de una gallina porque:
+    //- Inicio Tarjetas
+    .row(data-aos="fade-right")
+      .col-sm-6.col-lg.mb-4.d-flex.flex-column
+        .tarjeta.p-4.rounded-5.h-100.bg-white.border
+          .row.justify-content-center.mb-3.align-items-center
+            .col-7
+              figure
+                img(src='@/assets/curso/tema1/tarjeta02_1.svg', alt='' style="width:100px").m-auto
+          h4.card-title.text-center.mb-4 XXXXXXXXXXXX
+          p.text-center xxxxxxxxxxxxxxxxxxxxxxxx
+      .col-sm-6.col-lg.mb-4.d-flex.flex-column
+        .tarjeta.p-4.rounded-5.h-100.bg-white.border
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema1/tarjeta02_2.svg', alt='' style="width:100px").m-auto
+          h4.card-title.text-center.mb-4 XXXXXXXXXXXX
+          p.text-center xxxxxxxxxxxxxxxxxxxxxxxx
+      .col-sm-6.col-lg.mb-4.d-flex.flex-column
+        .tarjeta.p-4.rounded-5.h-100.bg-white.border
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema1/tarjeta02_3.svg', alt='' style="width:100px").m-auto
+          h4.card-title.text-center.mb-4 XXXXXXXXXXXX
+          p.text-center xxxxxxxxxxxxxxxxxxxxxxxx
+    //- Fin Tarjetas
 
     //- Fin Tema1.1
 
